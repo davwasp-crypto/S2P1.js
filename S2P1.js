@@ -83,7 +83,7 @@ for (let i = 0; i <=15; i++) {
 let numA = 15
 let numB = 7
 let somma = numA + numB
-let sott = numA - numB
+let sott = Math.abs (numA - numB)
 if (numA == 8 || numB == 8 || somma == 8 || sott == 8) {
   console.log('uno dei valori è 8 oppure la loro addizione e sottrazione è uguale a 8')
 }
